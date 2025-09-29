@@ -1,1 +1,1 @@
-# SERV
+This is a place where im just tryna to do some fqd up thingz
