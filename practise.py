@@ -9,7 +9,7 @@ else:
 
 # Username input with retry
 while True:
-    Username = str(input("Whats ur name?"))
+    Username = str(input("Whats ur name? "))
     if len(Username) < 4:
         print("Name is too short! Try again.")
         continue
