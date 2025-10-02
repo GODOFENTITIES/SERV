@@ -32,10 +32,10 @@ while True:
     break
 
 print("You are logged in successfully")
-print("Welcome", Username)
+print("Welcome", Username.title())
 print("loading...")
 print("You have successfully created your account")
-print("Thank you for registering", Username)
+print("Thank you for registering", Username.title())
 
 
 print("You can now login to your account")
@@ -50,7 +50,7 @@ while True:
         print("Incorrect password. Try again.")
         continue
     print("You are logged in successfully")
-    print("Welcome back", Username)
+    print("Welcome back", Username.title())
     break
 
 
@@ -64,7 +64,7 @@ while True:
     if len(Experience) >= 10:
         print("Thank you for your detailed feedback")
         break
-print("Have a nice day ahead", Username)
+print("Have a nice day ahead", Username.title())
 
 # This is a simple user registration and login system with basic validations.
 # It checks for age, username length, password strength, and confirms password match.
